@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="HL7525 죽음" id="입력박스">
+    <button onclick="boom(document.getElementById('입력박스').value)">입력</button>
+
+    <script>
+        var name = 'Alpha'
+        function boom(문자) {
+            if(문자 === '안녕') {
+                alert('안녕하세요 ' + name + '님.')
+            }  else if(문자 === '몇살이야?') {
+                alert('몰?루')
+            } else if(문자 === 'HL7428') {
+                alert('국내 최후의 B747-400')
+            } else if(문자 === 'HL7248') {
+                alert('B767-300 (스크렙)')
+            } else if(문자 === 'HL8501') {
+                alert('티웨이의 첫번째 A330-300')
+            } else if(문자 === 'HL8504') {
+                alert('대한항공의 첫번째 A321neo')
+            } else if(문자 === 'HL7525') {
+                alert('오늘 세벽 사망한 대한항공의 A330 4번째 도입기')
+            } else if(문자 === 'HL7777') {
+                alert('망해버린 어떤 항공사의 포커100')
+            } else if(문자 === '이연우') {
+                alert('옆에서 코딩하는 어떤 친구')
+            } else if(문자 === '安寧') {
+                alert("我 can't understand")
+            } else if(문자 === '몇살이야?') {
+                alert('몰?루')
+            } else {
+                alert('그걸 내가 어떻게 앎')
+            }
+        }
+    </script>
+</body>
+</html>
